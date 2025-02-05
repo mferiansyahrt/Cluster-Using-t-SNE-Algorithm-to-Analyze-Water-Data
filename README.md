@@ -1,5 +1,7 @@
 # t-SNE-Clustering
 
+NOTES : <b>for a detailed explanation please refer to [tsne_clustering.ipynb](./tsne_clustering.ipynb)</b>. I have explained the details of the dataset, model, preprocessing, and results there. This section provides only a brief overview.
+
 The dataset used on this project comes from [water_data](./CleanedUp_DataSet_Orbi.csv)
 
 Clustering anomalies from water data based on t-SNE algorithm using t-SNE to group spesific cluster and performs dimensionality reduction, then use Gaussian Mixture to label each cluster.
@@ -43,5 +45,3 @@ As we can see, the similarity results only identify cluster-20 and cluster-12, w
         <img src="./figure/sim.png" width="60%"/>
     </a>
 </div>
-
-NOTES : <b>for a detailed explanation please refer to [tsne_clustering.ipynb](./tsne_clustering.ipynb)</b>
