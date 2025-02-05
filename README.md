@@ -28,7 +28,7 @@ Also, in this project we test reproducibility on each run and check it by simili
     </a>
 </div>
 
-Then, calculate many datapoint on each cluster/label from each run, for the smaller one are identified as anomalies
+Then, calculate many datapoint on each cluster/label from each run, for the smaller one are identified as anomalies.
 
 <div align="center">
     <a href="./">
@@ -36,9 +36,12 @@ Then, calculate many datapoint on each cluster/label from each run, for the smal
     </a>
 </div>
 
+As we can see, the similarity results only identify cluster-20 and cluster-12, which approximately have the same value. This is a valid result because they come from different runs.
+
 <div align="center">
     <a href="./">
         <img src="./figure/sim.png" width="60%"/>
     </a>
 </div>
 
+NOTES : <b>for a detailed explanation please refer to [tsne_clustering.ipynb](./tsne_clustering.ipynb)</b>
