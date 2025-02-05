@@ -20,5 +20,18 @@ As written on the code, we use many class to label each cluster using Gaussian M
     </a>
 </div>
 
+Also, in this project we test reproducibility on each run and check it by similiarity measure if t-SNE + Gaussian Mixture will produce same result if we run more than one time. Figure shown below is the second run.
 
-Then, calculate many datapoint on each cluster, for the smaller one are identified as anomalies. We calculate similiarity to check if t-SNE + Gaussian Mixture will produce same result if we run more than one time.
+<div align="center">
+    <a href="./">
+        <img src="./figure/clustered_data_2.png" width="79%"/>
+    </a>
+</div>
+
+Then, calculate many datapoint on each cluster/label from each run, for the smaller one are identified as anomalies
+
+<div align="center">
+    <a href="./">
+        <img src="./figure/sim.png" width="79%"/>
+    </a>
+</div>
