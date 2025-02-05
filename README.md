@@ -32,6 +32,7 @@ Then, calculate many datapoint on each cluster/label from each run, for the smal
 
 <div align="center">
     <a href="./">
-        <img src="./figure/sim.png" width="79%"/>
+        <img src="./figure/anom.png" width="79%"/>
     </a>
 </div>
+
